@@ -1,0 +1,136 @@
+.first {
+	width: auto;
+	background-image: url(../image/nature.jpg);
+	background-repeat: no-repeat;
+	height: 750px;
+}
+.menu {
+	padding-top: 15px;
+	background-color: transparent;
+	width: 100%;
+	height: 80px;
+	border-bottom: solid 1px white;
+}
+.first-span {
+
+	font-size: 35px;
+	color: white;
+	margin-left: 180px;
+	margin-right: 300px;
+}
+.nav {
+	font-size: 18px;
+	color: white;
+	margin-left: 30px;
+}
+.firtst-page-content {
+	margin: 150px 500px;
+	width: 500px;
+	height: 300px;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 45px;
+}
+.btn {
+	background-color: #f4427a;
+	border-color: #e81050;
+	color: white;
+	padding: 15px;
+	height: 30px;
+	width: 150px;
+	border-radius: 25px;
+}
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;	
+	margin-top: 150px;
+	height: 500px;
+}
+.grid1 {
+	grid-area: 1/3/14/12;
+	background-image: url(../image/nat.jpg);
+	margin-left: 100px; 
+	
+      
+}
+.grid2 {
+	background-color: #ed4b7c;
+	grid-area: 7/8/15/11;
+	width: 500px;
+	height: 380px;
+	margin-left: 300px;
+	padding: 20px;
+	color: white;
+}
+.btn2 {
+	background-color:#d3c9cc;
+	border-color: #8e878d;
+	color: white;
+	padding: 15px;
+	height: 30px;
+	width: 150px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.professional {
+	margin-left: 100px;
+	margin-top: 200px;
+	width: 400px;
+	font-size: 25px;
+}
+.container1 {
+	margin-top: 50px;
+	display: inline-grid;
+	grid-gap: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 400px 400px;
+}
+.pic {
+	width: 250px;
+	height: 300px;
+}
+.image3{
+	
+background-image: url(../image/engineer.jpeg);
+background-repeat: no-repeat;
+	margin-left: 100px; 
+
+}
+
+.btn3{
+	background-color: #f4427a;
+	border-color: #e81050;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	height: 30px;
+	width: 110px;
+	border-radius: 25px;
+	position:relative;
+margin-top:150px;
+margin-left: 80px;
+}
+
+.text{
+font-size: 15px;
+color: #ccc1c4;
+position: absolute;
+  right: 150px;
+
+}
+.btn4{
+background-color: #f4427a;
+	border-color: #e81050;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	height: 30px;
+	width: 110px;
+	border-radius: 25px;
+}
